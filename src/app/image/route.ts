@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 import puppeteer from "puppeteer";
 
 export async function GET(request: NextRequest) {
-  let url = `http://localhost:3000/callback${request.nextUrl.search}`;
+  let url = `https://pholder.vercel.app/callback${request.nextUrl.search}`;
 
   async function takeScreenshot(url: string) {
     const browser = await puppeteer.launch();
