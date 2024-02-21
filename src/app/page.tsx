@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen ">
       <div className="sm:p-10 flex items-center justify-center w-full md:w-3/12 shadow-md m-2 rounded p-16 ">
-        <div className="text-center md:m-5">
+        <div className="text-center md:m-5"> 
           <div className="flex gap-5 p-1 w-full">
             <p>Hight</p>
             <input
